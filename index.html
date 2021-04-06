@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Picture</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/first.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Picture</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto smooth-scroll">
+            <li class="nav-item">
+              <a class="nav-link" href="#food">food
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#beauty" data-offset="90">beauty</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#anime" data-offset="90">anime</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scenery" data-offset="90">scenery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#more" data-offset="30">more</a>
+            </li>
+          </ul>
+          <!-- Social Icon  -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fab fa-facebook-f light-green-text-2"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fab fa-twitter light-green-text-2"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fab fa-instagram light-green-text-2"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="view">
+      <section id="gallery">
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-12 mb-4">
+
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+              <!--Indicators-->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+              </ol>
+              <!--/.Indicators-->
+              <!--Slides-->
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <div class="view">
+                    <img class="d-block w-100" src="img/img_homework1/background/img (3).jpg" height="700px"
+                      alt="First slide">
+                    <div class="mask rgba-black-strong"></div>
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="h3-responsive">lake</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <!--Mask color-->
+                  <div class="view">
+                    <img class="d-block w-100" src="img/img_homework1/background/img (6).jpg" height="700px"
+                      alt="Second slide">
+                    <div class="mask rgba-black-light"></div>
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="h3-responsive">night sky</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <!--Mask color-->
+                  <div class="view">
+                    <img class="d-block w-100" src="img/img_homework1/background/img (10).jpg" height="700px"
+                      alt="Third slide">
+                    <div class="mask rgba-black-slight"></div>
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="h3-responsive">mountain</h3>
+                  </div>
+                </div>
+              </div>
+              <!--/.Slides-->
+              <!--Controls-->
+              <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+              <!--/.Controls-->
+            </div>
+            <!--/.Carousel Wrapper-->
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!-- Mask & flexbox options-->
+    </div>
+    <!--/.Navbar-->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main>
+    <section id="gallery" class="text-center py-5">
+
+      <!-- Container -->
+      <div class="container">
+
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-italic grey-text mb-5 " id="food">food</h2>
+        <!-- Section description -->
+        <div class="row">
+          <div class="col-md-12">
+
+            <div id="mdb-lightbox-ui"></div>
+
+            <div class="mdb-lightbox">
+
+              <figure class="col-md-4 view">
+               <div class="zoomImage" style="background-image: url(./img/img_homework1/food/145.jpg);"></div>
+               <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/food/150.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/food/151.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/food/152.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/food/40.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/food/42.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+            </div>
+
+          </div>
+        </div>
+        <hr class="hr-light">
+        <h2 class="h1-responsive font-italic grey-text mb-5 " id="beauty">beauty</h2>
+        <div class="row">
+          <div class="col-md-12">
+
+            <div id="mdb-lightbox-ui"></div>
+
+            <div class="mdb-lightbox">
+
+              <figure class="col-md-4 view">
+               <div class="zoomImage" style="background-image: url(./img/img_homework1/beauty/220246-1566655366d857.jpg);"></div>
+               <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/beauty/231913-1616599153a25d.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/beauty/221652-1570198612aedd.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/beauty/223248-1587393168c0ea.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/beauty/232221-16165993418ad8.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/beauty/232311-1499181791aa0a.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+            </div>
+
+          </div>
+        </div>
+        <hr class="hr-light">
+        <h2 class="h1-responsive font-italic grey-text mb-5 " id="anime">anime</h2>
+        <div class="row">
+          <div class="col-md-12">
+
+            <div id="mdb-lightbox-ui"></div>
+
+            <div class="mdb-lightbox">
+
+              <figure class="col-md-4 view">
+               <div class="zoomImage" style="background-image: url(./img/img_homework1/anime/000005-1611158405c3d5.jpg);"></div>
+               <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/anime/000101-1599062461350c.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/anime/000110-1591632070532c.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/anime/004730-1582390050f40d.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/anime/181210-1613470330847a.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/anime/194146-1613475706bff7.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+            </div>
+
+          </div>
+        </div>
+        <hr class="hr-light">
+        <h2 class="h1-responsive font-italic grey-text mb-5 " id="secenry">secenry</h2>
+        <div class="row">
+          <div class="col-md-12">
+
+            <div id="mdb-lightbox-ui"></div>
+
+            <div class="mdb-lightbox">
+
+              <figure class="col-md-4 view">
+               <div class="zoomImage" style="background-image: url(./img/img_homework1/scenery/1.jpg);"></div>
+               <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/scenery/2.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/scenery/3.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/scenery/4.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/scenery/5.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+
+              <figure class="col-md-4 view">
+                  <div class="zoomImage" style="background-image: url(./img/img_homework1/scenery/6.jpg);"></div>
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+              </figure>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- Container -->
+
+    </section>
+  </main>
+  <!--Main layout-->
+
+  <footer class="page-footer font-small pt-4 rgba-grey-light">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center" id="more">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-google-plus-g"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1">
+            <i class="fab fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+
+</html>
